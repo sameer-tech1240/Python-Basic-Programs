@@ -1,0 +1,12 @@
+class MyClass:
+    def __init__(self, variable):
+        self.variable = variable
+class Otherclass:
+        def __init__(self,local):
+            self.local=local
+obj = MyClass("Hello, Instance Variable!")
+vae= Otherclass('bye')
+instance = obj.variable
+li=vae.local
+print(li)
+print(instance)
